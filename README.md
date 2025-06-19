@@ -28,14 +28,15 @@ You can run this project without Dev C++ using the `gcc` compiler.
 
 ### 🪟 Windows (MinGW)
 
-1. Install [MinGW](https://www.mingw-w64.org/)
+1. Install MinGW and add it to PATH
 2. Open Command Prompt or PowerShell
 3. Navigate to your project folder:
-cd path\to\shopping-cart-c
+   cd path\to\shopping-cart-c
 4. Compile:
-gcc shopping.c -o shopping_cart.exe
+   gcc shopping.c -o shopping_cart.exe
 5. Run:
-shopping_cart.exe
+   shopping_cart.exe
+
 
 ### 🐧 Linux
 
@@ -48,7 +49,7 @@ gcc shopping.c -o shopping_cart
 ```
 🍏 macOS
 ```bash
-xcode-select --install  # if not installed
+xcode-select --install  # Install command-line tools
 cd ~/path/to/shopping-cart-c
 gcc shopping.c -o shopping_cart
 ./shopping_cart
